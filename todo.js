@@ -12,10 +12,6 @@ button.addEventListener("click", () => {
 
     const li = document.createElement("li");
     li.textContent = task;
-    li.style.display = "flex";
-    li.style.justifyContent = "space-between";
-    li.style.alignItems = "center";
-    li.style.cursor = "pointer";
 
     const deleteBtn = document.createElement("span");
     deleteBtn.textContent = "X";

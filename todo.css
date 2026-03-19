@@ -64,5 +64,9 @@ ul li{
     border: 1px solid #ddd;
     border-radius: 4px;
     margin-bottom: 10px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    cursor: pointer;
 }
 
